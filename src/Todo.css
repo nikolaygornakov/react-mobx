@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+  border-bottom: 2px solid orangered;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+}
+
+#completed {
+  margin: 2em;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 0.5em;
+  text-align: initial;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  padding-left: 0;
+}
+
+.more-data {
+  display: flex;
+}
+
+.creator {
+  margin-right: 2em;
+}
+
+.action-buttons {
+  display: flex;
+  align-items: center;
+  padding: 0 1em;
+}
